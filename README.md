@@ -73,11 +73,10 @@ This study underscores the value of interdisciplinary methods—merging finance,
 
 The project directory is organized as follows:
 
-- `baseline_notebook/`: Initial exploratory data analysis and baseline models.
-- `clustering_code/`: Scripts for clustering news articles based on content similarity.
-- `sentiment_analysis/`: Tools and models for performing sentiment analysis on news headlines.
-- `gold_data/`: Datasets related to gold data sentiment. 
-- `financial_data/`: Datasets related to gold prices.
+- `data/`: Datasets related to gold seperated in raw, staged category.
+- `model_notebooks/`: Consolidated notebooks for final model training, testing and evaluation.
+- `pipeline/`: Real Time pipeline for results
+- `references/`: Datasets related to gold label clustering
 - `Images/`: Visualizations and plots generated during analysis.
-- `Final_code/`: Consolidated scripts for final model training and evaluation.
+- `research/`: EDA and LSTM vs TCN comparison
 - `README.md`: This documentation file.
