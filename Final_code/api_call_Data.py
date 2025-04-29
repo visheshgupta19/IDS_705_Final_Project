@@ -47,4 +47,4 @@ df = df.drop_duplicates(subset=["Headline"]).reset_index(drop=True)
 # Sort by date
 df = df.sort_values("Date").reset_index(drop=True)
 
-df.to_csv("real_time_api_data.csv")
+df.to_csv("fetched_gold_metal_economy_headlines.csv")
