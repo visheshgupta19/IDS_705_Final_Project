@@ -35,7 +35,7 @@ Our process traces the evolution from traditional time-series forecasting to a h
 3. **Thematic Discovery**: BERTopic clustering identifies macro themes in news, providing contextual richness.
 4. **Unified Model**: Combines all features (price, sentiment, themes) for final prediction.
 
-![Workflow Overview](Images\experiment_flow.png)
+![Workflow Overview](Images/experiment_flow.png)
 
 The resulting unified model leverages both quantitative signals and qualitative narratives for improved performance.
 
@@ -76,7 +76,8 @@ The project directory is organized as follows:
 - `baseline_notebook/`: Initial exploratory data analysis and baseline models.
 - `clustering_code/`: Scripts for clustering news articles based on content similarity.
 - `sentiment_analysis/`: Tools and models for performing sentiment analysis on news headlines.
-- `gold_data/`: Datasets related to gold prices and relevant economic indicators.
+- `gold_data/`: Datasets related to gold data sentiment. 
+- `financial_data/`: Datasets related to gold prices.
 - `Images/`: Visualizations and plots generated during analysis.
 - `Final_code/`: Consolidated scripts for final model training and evaluation.
 - `README.md`: This documentation file.
