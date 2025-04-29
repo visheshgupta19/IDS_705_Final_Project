@@ -1,5 +1,6 @@
 # IDS_705_Final_Project : Gold Price Prediction using News Sentiment and Thematic Clustering
 
+## by: Arko Bhattacharya, Zachary Fennie, Vishesh Gupta, Danish Maknojia, Chris Moreira
 
 ## Introduction
 
@@ -34,7 +35,7 @@ Our process traces the evolution from traditional time-series forecasting to a h
 3. **Thematic Discovery**: BERTopic clustering identifies macro themes in news, providing contextual richness.
 4. **Unified Model**: Combines all features (price, sentiment, themes) for final prediction.
 
-![Workflow Overview](experiment_flow.png)
+![Workflow Overview](Images\experiment_flow.png)
 
 The resulting unified model leverages both quantitative signals and qualitative narratives for improved performance.
 
